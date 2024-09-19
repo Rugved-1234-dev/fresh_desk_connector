@@ -1,0 +1,283 @@
+[
+  {
+    "key": "fr_escalated",
+    "name": "Fr Escalated",
+    "hintText": "Fr Escalated",
+    "helpText": "Fr Escalated",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "boolean",
+    "controlType": "select",
+    "pickList": [
+      [
+        "Yes",
+        true
+      ],
+      [
+        "No",
+        false
+      ]
+    ]
+  },
+  {
+    "key": "spam",
+    "name": "Spam",
+    "hintText": "Spam",
+    "helpText": "Spam",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "boolean",
+    "controlType": "select",
+    "pickList": [
+      [
+        "Yes",
+        true
+      ],
+      [
+        "No",
+        false
+      ]
+    ]
+  },
+  {
+    "key": "group_id",
+    "name": "Group Id",
+    "hintText": "Group Id",
+    "helpText": "Group Id",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "priority",
+    "name": "Priority",
+    "hintText": "Priority",
+    "helpText": "Priority",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "requester_id",
+    "name": "Requester Id",
+    "hintText": "Requester Id",
+    "helpText": "Requester Id",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "source",
+    "name": "Source",
+    "hintText": "Source",
+    "helpText": "Source",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "status",
+    "name": "Status",
+    "hintText": "Status",
+    "helpText": "Status",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "subject",
+    "name": "Subject",
+    "hintText": "Subject",
+    "helpText": "Subject",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "product_id",
+    "name": "Product Id",
+    "hintText": "Product Id",
+    "helpText": "Product Id",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "id",
+    "name": "Id",
+    "hintText": "Id",
+    "helpText": "Id",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "type",
+    "name": "Type",
+    "hintText": "Type",
+    "helpText": "Type",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "due_by",
+    "name": "Due By",
+    "hintText": "Due By",
+    "helpText": "Due By",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "fr_due_by",
+    "name": "Fr Due By",
+    "hintText": "Fr Due By",
+    "helpText": "Fr Due By",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "is_escalated",
+    "name": "Is Escalated",
+    "hintText": "Is Escalated",
+    "helpText": "Is Escalated",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "boolean",
+    "controlType": "select",
+    "pickList": [
+      [
+        "Yes",
+        true
+      ],
+      [
+        "No",
+        false
+      ]
+    ]
+  },
+  {
+    "key": "description",
+    "name": "Description",
+    "hintText": "Description",
+    "helpText": "Description",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "description_text",
+    "name": "Description Text",
+    "hintText": "Description Text",
+    "helpText": "Description Text",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "custom_fields",
+    "name": "Custom Fields",
+    "hintText": "Custom Fields",
+    "helpText": "Custom Fields",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "object",
+    "controlType": "object",
+    "properties": []
+  },
+  {
+    "key": "created_at",
+    "name": "Created At",
+    "hintText": "Created At",
+    "helpText": "Created At",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "updated_at",
+    "name": "Updated At",
+    "hintText": "Updated At",
+    "helpText": "Updated At",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "tags",
+    "name": "Tags",
+    "hintText": "Tags",
+    "helpText": "Tags",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "attachments",
+    "name": "Attachments",
+    "hintText": "Attachments",
+    "helpText": "Attachments",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "string",
+    "controlType": "text"
+  },
+  {
+    "key": "sentiment_score",
+    "name": "Sentiment Score",
+    "hintText": "Sentiment Score",
+    "helpText": "Sentiment Score",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "initial_sentiment_score",
+    "name": "Initial Sentiment Score",
+    "hintText": "Initial Sentiment Score",
+    "helpText": "Initial Sentiment Score",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "number",
+    "controlType": "text"
+  },
+  {
+    "key": "nr_escalated",
+    "name": "Nr Escalated",
+    "hintText": "Nr Escalated",
+    "helpText": "Nr Escalated",
+    "isExtendedSchema": false,
+    "required": false,
+    "type": "boolean",
+    "controlType": "select",
+    "pickList": [
+      [
+        "Yes",
+        true
+      ],
+      [
+        "No",
+        false
+      ]
+    ]
+  }
+]
